@@ -1,0 +1,41 @@
+
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li {
+    background-color: aquamarine;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.favorite-color {
+    background-color:blueviolet
+
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+body {
+    font-size: 16px
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}
