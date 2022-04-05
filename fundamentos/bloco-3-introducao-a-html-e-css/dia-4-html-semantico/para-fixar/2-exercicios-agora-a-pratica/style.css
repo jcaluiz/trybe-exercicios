@@ -1,0 +1,17 @@
+header {
+    border: 2px solid rgb(49, 27, 177);
+}
+
+nav {
+    border: 2px solid red;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+main {
+    border: 2px solid green;
+}
+
