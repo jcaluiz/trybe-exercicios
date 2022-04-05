@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(204,204,204);
+}
+
+header {
+    background-color: rgb(62, 86, 158);
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(187 209 63);
+    padding: 10px;
+}
+
+main {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+footer {
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid rgb(7, 46, 33);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 34px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+h2, h3 {
+    color: yellow;
+    text-align: center;
+}
+
+h4 {
+   border: 2px solid yellow;
+   margin-bottom: 50px;
+   margin-right: 750px;
+   margin-left: 270px;
+   background-color: aquamarine;
+   font-weight: 700;
+   font-size: large;
+}
+
+h4 a {
+    color: red;
+}
+
+h4:hover {
+    font-weight: 1000;
+}
+
+p a {
+    color: red;
+    background-color: aquamarine;
+    font-weight: 700;
+}
+
+p a:hover {
+    font-weight: 1000;
+}
+
+p {
+    padding: 2px;
+    margin-right: 230px;
+    margin-left: 280px;
+    background-color:rgb(77, 61, 61);
+}
+
+span {
+    color: red;
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+span:hover {
+    font-weight: 1000;
+}
+
+section {
+    margin-bottom: 50px;
+    background-color: rgb(85,68,18);
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    margin-right: 10px;
+    border: 2px solid rgb(7, 7, 7);
+    background-color:rgb(77, 61, 61);
+}
+
+h4, p, ul {
+    color: aliceblue;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav {
+    text-decoration: none;
+    background-color: green;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}   
+
+.nav:hover {
+    font-weight: 1000;
+    color: wheat;
+}
+
+.fact-list {
+    padding: 2px;
+    margin-right: 350px;
+    margin-left: 300px;
+    background-color:rgb(77, 61, 61);
+}
+
+.information h5 {
+    margin-bottom: 5px;
+}
+
+.information {
+    display: inline-block;
+    left: 50px;
+}
+
+
+#video {
+    border: 2px solid black;
+    margin-right: 430px;
+    margin-left: 420px;
+}
+
+.image1 {
+    margin-top: 30px;
+    width: 250px;
+    float: left;
+    display: block;
+}
+
+.image2 {
+    margin-top: 50px;
+    width: 250px;
+    float: left;
+    display: block;
+}
+
+.image3 {
+    margin-top: 30px;
+    width: 250px;
+    float: left;
+    display: block;
+}
+
+.image4 {
+    margin-top: 25px;
+    width: 250px;
+    float: left;
+    display: block;
+}
+
+.image5 {
+    margin-top: 50px;
+    width: 250px;
+    float: left;
+}
+
+.image6 {
+    margin-top: 50px;
+    width: 250px;
+    float: left;
+}
+
+.image7 {
+    margin-top: 50px;
+    width: 250px;
+    float: left;
+}
