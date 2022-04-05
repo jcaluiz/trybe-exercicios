@@ -30,9 +30,16 @@ h1 {
     font-family: Arial,Helvetica,sans-serif;
 }
 
-h2, h3 {
+h2 {
     color: yellow;
     text-align: center;
+    margin-right: 200px;
+}
+
+h3 {
+    color: yellow;
+    text-align: center;
+    margin-right: 30px;
 }
 
 h4 {
@@ -66,7 +73,7 @@ p a:hover {
 p {
     padding: 2px;
     margin-right: 230px;
-    margin-left: 280px;
+    margin-left: 250px;
     background-color:rgb(77, 61, 61);
 }
 
