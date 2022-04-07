@@ -1,0 +1,62 @@
+
+ol {
+    background-color: yellow;
+}
+
+ol li.par {
+    color: green;
+} 
+
+ol li.impar {
+    text-transform:uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.tresprimeiras {
+    color: blue;
+}
+
+.tresprimeiras.java {
+    background-color: pink
+}
+
+.stackoverflow-color:hover {
+    color: #ff9900;
+    font-weight: bolder;
+}
+
+.w3schools-color:hover {
+    color: #04AA6D;
+    font-weight: bolder;
+}
+
+.mdn-color:hover {
+    color: #15141a;
+    font-weight: bolder;
+}
+
+.dev-color:hover {
+    color: rgb(218, 218, 16);
+    font-weight: bolder;
+}
+
+.trybe-color:hover {
+    color: #2fc18c;
+    font-weight: bolder;
+}
