@@ -31,22 +31,22 @@
 
 
 
-function indiceDoMaiorNumero () {
+function indiceDoMaiorNumero() {
     let array = [2, 3, 6, 7, 10, 1];
     let verificaNumero = 0;
     let maiorArray = 0;
-    for(let index = 0; index < array.length; index += 1) {
-        for(let index2 = 0; index2 < array.length; index2 += 1) {
-            if(array[index] > array[index2]) {
+    for (let index = 0; index < array.length; index += 1) {
+        for (let index2 = 0; index2 < array.length; index2 += 1) {
+            if (array[index] > array[index2]) {
                 verificaNumero = index + 1;
             }
-            if(verificaNumero > maiorArray) {
+            if (verificaNumero > maiorArray) {
                 maiorArray = verificaNumero;
             }
         }
     }
     maiorArray = maiorArray - 1;
-    
+
     return maiorArray;
 }
 
