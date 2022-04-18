@@ -108,3 +108,7 @@ section3.style.marginRight = 'auto';
 
 section1.style.backgroundColor = 'green';
 
+// 6- Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+
+ul1.removeChild(li9);
+ul1.removeChild(li10);
