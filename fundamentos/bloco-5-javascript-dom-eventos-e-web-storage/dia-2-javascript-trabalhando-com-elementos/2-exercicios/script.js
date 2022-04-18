@@ -84,5 +84,9 @@ criandoFilho(main, h3Number2);
 criandoFilho(main, h3Number3);
 
 
+// Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
 
+// 1- Adicione a classe title na tag h1 criada;
+
+title.className = 'title';
 
