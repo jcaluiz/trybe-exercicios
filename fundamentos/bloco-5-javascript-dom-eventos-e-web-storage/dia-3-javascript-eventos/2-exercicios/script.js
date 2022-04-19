@@ -54,7 +54,7 @@ for (index = 0; index < dezDaysList.length; index += 1) {
   buttonHoliday.setAttribute('id', 'btn-holiday'); //ref: https://www.educative.io/edpresso/how-to-add-an-id-to-element-in-javascript// como criar uma id pelo js
   }
 
-holidayButton('feriados');
+holidayButton('Feriados');
 
 // Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday" .
 // É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" .
@@ -73,3 +73,17 @@ botaoFeriado.addEventListener('dblclick', function (){
 })
 }
 backgroundColorHoliday ();
+
+// Exercício 4:
+// Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira".
+// Adicione a este botão o ID "btn-friday" .
+// Adicione este botão como filho/filha da tag <div> com classe "buttons-container"
+function fridayButton (string) {
+let botaoSexta = document.createElement('button');
+let buttonsContainer = document.querySelector('.buttons-container');
+buttonsContainer.appendChild(botaoSexta);
+botaoSexta.innerText = string;
+botaoSexta.setAttribute('id', 'btn-friday')
+}
+
+fridayButton('Sexta-Feira');
