@@ -42,3 +42,17 @@ for (index = 0; index < dezDaysList.length; index += 1) {
     daysDezItem.className = 'day holiday friday'
   }
 }
+// Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".
+// Adicione a este botão a ID "btn-holiday" .
+// Adicione este botão como filho/filha da tag <div> com classe "buttons-container" .
+
+  function holidayButton (string) {
+  let buttonHoliday = document.createElement('button');
+  let buttonsContainer = document.querySelector('.buttons-container');
+  buttonsContainer.appendChild(buttonHoliday);
+  buttonHoliday.innerText = string;
+  buttonHoliday.setAttribute('id', 'btn-holiday'); //ref: https://www.educative.io/edpresso/how-to-add-an-id-to-element-in-javascript// como criar uma id pelo js
+  }
+
+holidayButton('feriados');
+
