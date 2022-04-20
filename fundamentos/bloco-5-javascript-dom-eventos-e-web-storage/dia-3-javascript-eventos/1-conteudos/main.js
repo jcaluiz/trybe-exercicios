@@ -22,7 +22,7 @@ function addClassTech (event) {
  const techElement = document.querySelector('.tech'); //chamou a classe tech numa constante
  techElement.classList.remove('tech'); // na classe tech pela constante, removeu a palavra tech para todas as classes com esse nome
  event.target.classList.add('tech'); // o parâmetro event é para chamar o tipo de evento dentro da função chamada abaixo e depois deu a opção de acrescentar o nome tech a classe quando é executado o evento abaixo
-//  input.value = ''; //não sei para que serve, porém, vou deixar como comentário
+ input.value = ''; //limpa o input quando clica em outra caixa
 }
 
 firstLi.addEventListener('click', addClassTech); //quando clicado, executa a função de remover todos as classes com tech e acrescenta na clicada onde tem o id firstLi
