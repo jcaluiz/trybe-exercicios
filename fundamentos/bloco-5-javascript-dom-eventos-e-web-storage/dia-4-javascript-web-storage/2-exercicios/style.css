@@ -1,0 +1,35 @@
+#header {
+    border: 2px solid red;
+    height: 50px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+#title {
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button-blue {
+    float: right;
+}
+
+.button-body {
+    float: right;
+    top: 10px
+}
+
+#section1 {
+    border: 2px solid red;
+    margin-right: 700px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#section1-section1 {
+    border: 2px solid red;
+    padding-top: 10px;
+}
