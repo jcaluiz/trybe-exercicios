@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(93, 96, 99);
+}
+
+.form-row {
+  margin: 20px;
+}
+
+.speker-form {
+  background-color: rgb(212, 191, 164);
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.text-label {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 7px;
+  font-weight: bold;
+}
