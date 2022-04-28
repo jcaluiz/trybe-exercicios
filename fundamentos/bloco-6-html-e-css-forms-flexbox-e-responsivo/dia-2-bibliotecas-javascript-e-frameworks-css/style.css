@@ -1,0 +1,36 @@
+body {
+  max-width: 80%;
+  margin: 40px auto;
+  background-color: bisque;
+}
+
+header {
+  padding: 40px;
+  background-color: #f5f8f8;
+  box-shadow: 20px 10px 5px gray;
+}
+
+main {
+  background-color: aliceblue;
+  padding: 40px;
+  box-shadow: 20px 10px 5px gray;
+}
+
+#date {
+  width: 20%;
+}
+
+.form-select {
+  width: 30%;
+}
+
+.container {
+  margin: 20px 0 20px 0;
+}
+
+footer {
+  margin: 40px auto;
+  background-color: #f5f8f8;
+  padding: 40px;
+  box-shadow: 20px 10px 5px gray;
+}
