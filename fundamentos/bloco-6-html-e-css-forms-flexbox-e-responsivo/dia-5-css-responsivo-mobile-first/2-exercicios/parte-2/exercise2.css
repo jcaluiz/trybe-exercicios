@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        margin: 0 10px;
+        font-size: 25px;
+        background-color: aquamarine;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header p {
+        font-size: 26px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    aside h2 {
+        text-align: center;
+    }
+
+    article h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    article p {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-family: fantasy;
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    header p {
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+        margin: 25px 0;
+    }
+
+    header p:hover {
+        color: blue;
+    }
+
+    nav ul {
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul:hover {
+        color: blue;
+    }
+
+    aside h2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    aside ul {
+        padding: 0 0 0 110px;
+    }
+
+    main {
+        padding: 30px;
+    }
+
+}
