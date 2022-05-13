@@ -9,6 +9,10 @@ const check = (a, b) => {
     for (let index = 0; index < 10; index += 1) {
         if (a[index] === b[index]) {
             totalCertas += 1;
+        } else if (b[index] === 'N.A') {
+            totalCertas += 0;
+        } else {
+            totalCertas -= 0.5;
         }
     }
     return totalCertas;
