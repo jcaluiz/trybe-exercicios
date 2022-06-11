@@ -1,0 +1,19 @@
+.footer {
+    background-color: red;
+}
+
+.footer h1{
+    color: blue;
+}
+
+.content {
+    background-color: aqua;
+}
+
+.content:hover {
+    font-size: large;
+}
+
+li:hover {
+    font-size: large;
+}
