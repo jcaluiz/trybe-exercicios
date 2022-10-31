@@ -1,0 +1,39 @@
+version: '3.1'
+services:
+  node:
+    image: node:16.14
+    container_name: backend_6_1_exercicio
+    tty: true
+    stdin_open: true
+    command: bash
+    restart: always
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    depends_on:
+      - db
+    ports:
+      - 3001:3001
+      - 9229:9229
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+      MYSQL_HOST: 127.0.0.1
+      PORT: '3001'
+      HOST: backend_6_1_exercicio
+    networks:
+      - backend_6_1_net
+    
+  db:
+    container_name: backend_6_1_db
+    image: mysql:8.0.23
+    environment:
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - 3306:3306
+    networks:
+      - backend_6_1_net
+    
+networks:
+  backend_6_1_net:
+    driver: bridge
